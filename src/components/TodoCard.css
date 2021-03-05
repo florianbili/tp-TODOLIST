@@ -1,0 +1,31 @@
+.completed{
+    text-decoration: line-through ;
+}
+
+
+h1{
+    text-align: center;
+    color: aqua;
+}
+.todoapp{
+    background-color: orange;
+    display: block;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
